@@ -1,8 +1,7 @@
 QT       += core gui widgets
 
-TARGET = jsonParserUpdated
+TARGET = json-parser-visulizer
 TEMPLATE = app
-
 
 SOURCES += \
         main.cpp \
@@ -35,6 +34,6 @@ FORMS += \
         mainwindow.ui
 
 VPATH += \
-        src \
-        src/states
+        json-parser \
+        json-parser/states
 
